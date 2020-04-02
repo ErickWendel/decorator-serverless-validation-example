@@ -1,0 +1,17 @@
+
+service: erickwendel-decorator-example
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+plugins:
+  - serverless-offline
+functions:
+  create:
+    handler: handler.create
+    events:
+      - http:
+          method: post
+          path: users
+          cors: true
+
