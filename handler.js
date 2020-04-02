@@ -27,7 +27,7 @@ const schema = Joi.object({
 }).unknown()
 
 const create = async (event) => {
-  const { body, headers }= event
+  const { body, headers } = event
 
   return {
     body: `Validation has succeeded: ${JSON.stringify({ body, headers })}`,
