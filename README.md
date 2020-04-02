@@ -10,3 +10,7 @@ Example of how to use decorators to validate requests using `@hapi/joi` on Serve
 in Another terminal
 
 `npm run create-item`
+
+### Post link
+
+-  (portuguese): https://www.linkedin.com/posts/erickwendel_mvpbr-googledevexpert-serverlessapps-activity-6651489595278020608-KUgR
